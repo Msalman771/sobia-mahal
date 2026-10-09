@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [timeLeft, setTimeLeft] = useState({
-    days: 30,
+    days: 15,
     hours: 12,
     minutes: 45,
     seconds: 20,
@@ -100,6 +100,62 @@ export default function Home() {
         <div className="scroll-indicator">
           <span>Scroll to explore</span>
           <div className="scroll-line"></div>
+        </div>
+
+      </section>
+
+      
+      
+      {/* ================= VISIONARY / LEGEND SECTION ================= */}
+      <section id="visionary" className="visionary-section">
+
+        <div className="visionary-container">
+
+          <div className="visionary-image-wrapper">
+            <img
+              src="/images/founder.jpg"
+              alt="The visionary behind Sobia Mahal"
+              className="visionary-image"
+            />
+
+            <div className="visionary-image-frame"></div>
+            <span className="visionary-image-caption">
+              THE MIND BEHIND THE LEGACY
+            </span>
+          </div>
+
+          <div className="visionary-content">
+
+            <span className="visionary-eyebrow">
+              THE VISIONARY
+            </span>
+
+            <h2>
+              Greatness Is
+              <span> Never Built by Chance.</span>
+            </h2>
+
+            <div className="visionary-divider"></div>
+
+            <p className="visionary-description">
+              Behind every remarkable legacy stands a vision
+              that dares to be different. Sobia Mahal represents
+              the ambition, dedication, and leadership of someone
+              determined to create something truly extraordinary.
+            </p>
+
+            <blockquote className="visionary-quote">
+              “Some build structures. Legends build a legacy
+              that stands beyond time.”
+            </blockquote>
+
+            <div className="visionary-signature">
+              <span className="signature-line"></span>
+              <span>The Vision Behind Sobia Mahal</span>
+            </div>
+
+          </div>
+
         </div>
 
       </section>
